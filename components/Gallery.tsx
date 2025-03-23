@@ -11,7 +11,7 @@ const Gallery = () => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container px-4 mx-auto">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 mt-12">
           <h2 className="text-3xl font-bold mb-4">Our Gallery</h2>
           <p className="text-gray-600">Explore our wide range of printing services</p>
         </div>

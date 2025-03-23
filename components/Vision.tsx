@@ -53,7 +53,7 @@ const Vision = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center mt-20">
         <div className={`transition-all duration-700 delay-300 transform ${isVisible ? 'translate-x-0 opaciIya1e0' : 'translate-x-16 opacity-0'}`}>
             <Image 
-              src="https://res.cloudinary.com/dyj3rywju/image/upload/v1742627200/our_mission-min_jl4xuu.jpg"
+              src="https://res.cloudinary.com/dia8x6y6u/image/upload/v1742700896/goal-mission-teamwork-collaboration-with-icons-and-business-representation-vector_foumww.jpg"
               alt="mission" 
               width={800}
               height={600}

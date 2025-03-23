@@ -39,7 +39,7 @@ const ServiceCard = ({ title, imageSrc, delay }: ServiceCardProps) => {
         isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
       }`}
     >
-      <div className="h-48 overflow-hidden">
+      <div className="h-60 overflow-hidden">
         <Image 
           src={imageSrc} 
           alt={title}
@@ -96,17 +96,17 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
           <ServiceCard 
             title="Invitation printing" 
-            imageSrc="https://res.cloudinary.com/dyj3rywju/image/upload/v1742625153/service2_mdiqho.webp"
+            imageSrc="https://res.cloudinary.com/dia8x6y6u/image/upload/v1742659198/Invitation-Card_intsxo.jpg"
             delay={0}
           />
           <ServiceCard 
             title="Bill Book printing" 
-            imageSrc="https://res.cloudinary.com/dyj3rywju/image/upload/v1742625153/service3_ealhna.webp"
+            imageSrc="https://res.cloudinary.com/dia8x6y6u/image/upload/v1742700543/Bill-book-single1_zhesbb.webp"
             delay={100}
           />
           <ServiceCard 
             title="Visting Card printing" 
-            imageSrc="https://res.cloudinary.com/dyj3rywju/image/upload/v1742625153/service4_xsw0qf.webp"
+            imageSrc="https://res.cloudinary.com/dia8x6y6u/image/upload/v1742659196/Business-Cards_co0rbz.jpg"
             delay={200}
           />
         </div>
@@ -114,17 +114,17 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <ServiceCard 
             title="Flyers printing" 
-            imageSrc="https://res.cloudinary.com/dyj3rywju/image/upload/v1742625153/service5_wnk9tn.webp"
+            imageSrc="https://res.cloudinary.com/dia8x6y6u/image/upload/v1742700644/Flyers-Social-1024x1024_treoc4.jpg"
             delay={300}
           />
           <ServiceCard 
             title="Banners printing" 
-            imageSrc="https://res.cloudinary.com/dyj3rywju/image/upload/v1742625153/service6_b7w4g4.webp"
+            imageSrc="https://res.cloudinary.com/dia8x6y6u/image/upload/v1742701292/Flex-Banner-Printing_jkmd43.jpg"
             delay={400}
           />
           <ServiceCard 
-            title="Catalogs printing" 
-            imageSrc="https://res.cloudinary.com/dyj3rywju/image/upload/v1742625153/service7_i51h0v.webp"
+            title="Bag printing" 
+            imageSrc="https://res.cloudinary.com/dia8x6y6u/image/upload/v1742700219/IMG-20240228-WA0002_crmfun.jpg"
             delay={500}
           />
         </div>

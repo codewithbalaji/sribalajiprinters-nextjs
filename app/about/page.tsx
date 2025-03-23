@@ -3,17 +3,40 @@ import About from "@/components/About";
 import Vision from "@/components/Vision";
 import ContactCTA from "@/components/ContactCTA";
 import Image from "next/image";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About Us - Our Printing Journey and Expertise',
+  description: 'Learn about Sri Balaji Printers, our journey, expertise, and commitment to delivering high-quality printing services in Chennai since our establishment.',
+  alternates: {
+    canonical: '/about'
+  },
+  openGraph: {
+    title: 'About Sri Balaji Printers - Our Printing Journey and Expertise',
+    description: 'Learn about Sri Balaji Printers, our journey, expertise, and commitment to delivering high-quality printing services in Chennai since our establishment.',
+    url: '/about',
+    images: [
+      {
+        url: '/about-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'About Sri Balaji Printers',
+      },
+    ],
+    type: 'website',
+  },
+}
 
 const AboutUs = () => {
   return (
     <>
       <div className="pt-32  bg-balaji-lightgray">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+          <div className="text-center mb-12 ">
             <h1 className="text-4xl font-bold text-gray-800 mb-4">
               About Sri Balaji Printers
             </h1>
-            <p className="text-gray-600 max-w-3xl mx-auto">
+            <p className="text-gray-600 max-w-3xl mx-auto pb-12">
               Leading the printing industry with quality, innovation, and
               exceptional service since 1999.
             </p>
@@ -60,8 +83,8 @@ const AboutUs = () => {
         </div>
       </section>
       <section className="pb-16 bg-balaji-lightgray">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">
+        <div className="container mx-auto px-4 ">
+          <h2 className="text-3xl font-bold mb-12 pt-12 text-center text-gray-800  ">
             Why Choose Us?
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
