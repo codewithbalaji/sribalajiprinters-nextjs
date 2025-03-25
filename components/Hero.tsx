@@ -65,8 +65,8 @@ const Hero = () => {
                         src={slide.image} 
                         alt={slide.alt} 
                         className="max-w-full h-auto rounded-lg shadow-xl"
-                        width={500}
-                        height={500}
+                        width={700}
+                        height={400}
                       />
                     </div>
                   </div>
